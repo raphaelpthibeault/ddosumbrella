@@ -141,7 +141,6 @@ int main(int argc, char **argv) {
         return -1;
     }
 
-    free(interface);
     statsfree(c->sock);
     free(c);
     return 0;
